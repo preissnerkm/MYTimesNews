@@ -42,19 +42,22 @@ nav a {
 
 .container {
   display: flex;
-  padding-top: 28px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 .container .large {
-  flex-wrap: wrap;
-  width: 630px;
-  margin-right: 32px;
-}
+  display: flex;  flex-direction: column;  margin-right: 32px;  width: 630px;}
 .container .medium {
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
   width: 300px;
 }
 .container .small {
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
   width: 240px;
 }
 .image {
