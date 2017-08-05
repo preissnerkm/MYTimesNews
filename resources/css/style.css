@@ -46,20 +46,20 @@ nav a {
   margin: 0 auto 78px auto;
   padding-top: 116px;
 }
-.container .large {
-  display: flex;  flex-direction: column;  margin-right: 32px;  width: 630px;}
-.container .medium {
+.large {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  width: 630px;}
+.medium {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
   width: 300px;
 }
-.container .small {
+.small {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
   width: 240px;
-}
-.image {
-  display: flex-grow;
 }
