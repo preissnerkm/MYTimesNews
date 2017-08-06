@@ -110,5 +110,16 @@ nav a {
 
 /* Add Flex Box to Stories */
 .nextstory {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: space-between;
+}
+.storytext {
+  height: 250px;
 }
