@@ -52,7 +52,7 @@ nav a {
 .large {
   display: flex;
   flex-direction: column;
-  margin-right: 32px;
+  padding-right: 32px;
   width: 630px;}
 .medium {
   display: flex;
@@ -118,8 +118,11 @@ nav a {
   display: flex;
   flex-direction: column;
   width: 300px;
-  justify-content: space-between;
 }
 .storytext {
   height: 250px;
+}
+.storytext h2 {
+  font-size: 30px;
+  margin-bottom: 17px;
 }
