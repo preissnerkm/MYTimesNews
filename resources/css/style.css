@@ -52,8 +52,9 @@ nav a {
 .large {
   display: flex;
   flex-direction: column;
-  padding-right: 32px;
-  width: 630px;}
+  margin-right: 32px;
+  width: 630px;
+}
 .medium {
   display: flex;
   flex-direction: column;
