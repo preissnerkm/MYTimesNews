@@ -1,6 +1,9 @@
 /* Div borders... REMOVE BEFORE COMPLETE */
 div{
   border: solid 1px black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 
@@ -71,7 +74,7 @@ nav a {
   font-family: Georgia;
   height: 300px;
   text-align: left;
-  display: flex;
+  display: block;
 }
 .earthimage {
   background-image: url("../images/fallseason.png");
@@ -80,8 +83,8 @@ nav a {
   font-weight: bold;
   font-family: Georgia;
   height: 300px;
+  display: block;
   text-align: center;
-  display: flex;
 }
 .researchimage {
   background-image: url("../images/hipstercameraman.png");
@@ -91,7 +94,7 @@ nav a {
   font-family: Georgia;
   height: 300px;
   text-align: center;
-  display: flex;
+  display: block;
 }
 .catsimage {
   background-image: url("../images/catceo.png");
@@ -101,5 +104,5 @@ nav a {
   font-family: Georgia;
   height: 300px;
   text-align: center;
-  display: flex;
+  display: block;
 }
