@@ -44,7 +44,7 @@ nav a {
   display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
-  padding-top: 116px;
+  padding-top: 32px;
 }
 .large {
   display: flex;
@@ -53,13 +53,53 @@ nav a {
   width: 630px;}
 .medium {
   display: flex;
-  flex-direction: column;
-  margin-right: 32px;
+  flex-direction: column;
+  margin-right: 32px;
   width: 300px;
 }
 .small {
   display: flex;
-  flex-direction: column;
-  margin-right: 32px;
+  flex-direction: column;
+  margin-right: 32px;
   width: 240px;
+}
+.tunaimage {
+  background-image: url("../images/mainstory.png");
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Georgia;
+  height: 300px;
+  text-align: left;
+  display: flex;
+}
+.earthimage {
+  background-image: url("../images/fallseason.png");
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia;
+  height: 300px;
+  text-align: center;
+  display: flex;
+}
+.researchimage {
+  background-image: url("../images/hipstercameraman.png");
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia;
+  height: 300px;
+  text-align: center;
+  display: flex;
+}
+.catsimage {
+  background-image: url("../images/catceo.png");
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia;
+  height: 300px;
+  text-align: center;
+  display: flex;
 }
