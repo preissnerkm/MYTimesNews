@@ -1,6 +1,5 @@
 /* Div borders... REMOVE BEFORE COMPLETE */
 div{
-  border: solid 1px black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -15,6 +14,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 10px;
+  border-bottom: solid 1px black;
 }
 
 nav {
@@ -105,4 +105,10 @@ nav a {
   height: 300px;
   text-align: center;
   display: block;
+}
+
+
+/* Add Flex Box to Stories */
+.nextstory {
+  display: inline-flex;
 }
