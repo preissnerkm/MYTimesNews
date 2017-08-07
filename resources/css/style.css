@@ -86,6 +86,7 @@ nav a {
   height: 300px;
   display: block;
   text-align: center;
+  margin-top: 60px;
 }
 .researchimage {
   background-image: url("../images/hipstercameraman.png");
@@ -96,6 +97,7 @@ nav a {
   height: 300px;
   text-align: center;
   display: block;
+  margin-top: 60px;
 }
 .catsimage {
   background-image: url("../images/catceo.png");
@@ -106,6 +108,9 @@ nav a {
   height: 300px;
   text-align: center;
   display: block;
+}
+.tunastory {
+  margin: 15px 0px 15px 0px;
 }
 
 
@@ -119,6 +124,7 @@ nav a {
   display: flex;
   flex-direction: column;
   width: 300px;
+  padding: 10px;
 }
 .storytext {
   height: 250px;
@@ -126,4 +132,24 @@ nav a {
 .storytext h2 {
   font-size: 30px;
   margin-bottom: 17px;
+}
+
+/* Add Flex Box to NewsBites */
+.newsbites {
+  display: flex;
+  flex-direction: column;
+}
+.small h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+.bites {
+  border-bottom: solid 1px black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 11px 20px;
 }
